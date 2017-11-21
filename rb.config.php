@@ -2,4 +2,5 @@
 require('config.php');
 require("rb.php");
 
-R::setup("sqlite:PHP KWIC Database.sqlite");
+R::setup("'mysql:host=localhost;
+           dbname=mydatabase','user','password')");
